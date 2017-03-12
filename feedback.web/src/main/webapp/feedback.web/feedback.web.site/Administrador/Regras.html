@@ -1,0 +1,133 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Regras</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="../Biblioteca/Bootstrap/bootstrap.css">
+<script src="../Biblioteca/jQuery/jquery-1.11.3.min.js"></script>
+<script src="../Biblioteca/Bootstrap/bootstrap.js"></script>
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+	  <div class="panel panel-default">
+	    <div class="panel-heading" role="tab">
+	      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">Termo de Responsabilidade</a></h4>
+        </div>
+	    <div id="collapseOne1" class="panel-collapse collapse">
+	      <div class="panel-body">
+          <div class="panel-group">          
+              <span class="glyphicon glyphicon-edit" onClick=""></span>
+              <br>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                    <br>
+                <input type="checkbox" value="1" > Aceito o uso etc... 
+		   </div>
+	
+          
+          </div>
+        </div>
+  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading">
+	      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">Horários</a></h4>
+        </div>
+	    <div id="collapseTwo1" class="panel-collapse collapse">
+        <div class="panel-body">
+          
+          <h3>Horário de funcionamento </h3>
+          
+          <p><label for="admin"> Para administradores de grupos </label></p>
+          <p><label for="horario"> Horário Inicial: </label> <input type="time" id="horario" name="horario"/></p>
+          <p><label for="horario"> Horário Final: </label> <input type="time" id="horario" name="horario"/></p>
+          
+          <p><label for="admin"> Para colaboradores de grupos </label></p>
+          <p><label for="horario"> Horário Inicial: </label> <input type="time" id="horario" name="horario"/></p>
+          <p><label for="horario"> Horário Final: </label> <input type="time" id="horario" name="horario"/></p>
+          
+          <p><label for="admin"> Para usuários de grupos </label></p>
+          <p><label for="horario"> Horário Inicial: </label> <input type="time" id="horario" name="horario"/></p>
+          <p><label for="horario"> Horário Final: </label> <input type="time" id="horario" name="horario"/></p>
+
+        </div>
+    </div>
+  </div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading">
+	      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">Modelos permitidos</a></h4>
+        </div>
+	    <div id="collapseThree1" class="panel-collapse collapse">
+	      <div class="panel-body">
+       		<div class="well col-md-4">
+            
+            	 <div class="col-sm-12">
+                 <h5 class="media"><input type="checkbox" checked="true"> Modelo Padrão</h5>
+                 
+                    <div class="col-md-10">
+                        <input class="input-lg col-sm-12">
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-send"></span></button>
+                    </div>
+                 </div>
+            
+            </div>
+            
+            <div class="well col-md-4">
+            
+            	 <div class="col-sm-12">
+                 <h5 class="media"><input type="checkbox" checked="true"> Modelo Evento</h5>
+                    <div class="col-md-10">
+                        Titulo: <input class="input-sm" type="text">
+                        <br>
+                        Local: <input class="input-sm" type="text">
+                        <br>
+                        Data e Hora: <input class="input-sm" type="datetime-local">
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-send"></span></button>
+                    </div>
+                 </div>
+            
+            </div>
+            
+            <div class="well col-md-4">
+            
+            	 <div class="col-sm-12">
+                 <h5 class="media"><input type="checkbox" checked="true"> Modelo Anexo</h5>
+                    <div class="col-md-10">
+                        Titulo: <input class="input-sm" type="text">
+                        <br>
+                         Arquivo: <input class="input-sm disabled" type="text"><button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-paperclip"></span></button>
+                        <br>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-send"></span></button>
+                    </div>
+                 </div>
+            
+            </div>
+          </div>
+          
+          <button type="button" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-floppy-saved"></span></button>           
+        </div>
+  </div>
+</div>
+
+</body>
+</html>

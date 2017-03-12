@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.label
+{	
+	font-family:"Trebuchet MS", Arial, Verdana, Garamond;
+	color:#585858;
+	
+}
+
+.titulo
+{
+	font-family:"Trebuchet MS", Arial, Verdana, Garamond;
+	color:#4F4F4F;
+	font-size:medium;
+}
+
+.texto-placeholder
+{
+	font-family: "Trebuchet MS", Arial, Verdana, Garamond;
+	border-radius: 4px;
+	color: #C4C4C4;
+	
+}
