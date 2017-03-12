@@ -1,5 +1,7 @@
 package com.feedback.dominio;
-
+import org.springframework.stereotype.Component;
+        
+@Component
 public class Cidade extends EntidadeDominio{
 
 	private String nome;

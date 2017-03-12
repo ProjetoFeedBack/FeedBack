@@ -1,8 +1,8 @@
 
 package com.feedback.dominio;
-
-
-
+import org.springframework.stereotype.Component;
+        
+@Component
 public class Usuario extends Pessoa {
 
 	private String cpf;
