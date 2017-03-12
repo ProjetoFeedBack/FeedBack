@@ -1,6 +1,6 @@
 package com.feedback.web;
 
-import com.feedback.core.aplicacao.Resultado;
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.feedback.core.aplicacao.Resultado;
 import com.feedback.web.command.ICommand;
 import com.feedback.web.command.impl.AlterarCommand;
 import com.feedback.web.command.impl.ConsultarCommand;
