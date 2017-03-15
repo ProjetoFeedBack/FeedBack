@@ -27,16 +27,17 @@ public class GrupoDAO extends AbstractJdbcDAO {
 			connection.setAutoCommit(false);			
 					
 			StringBuilder sql = new StringBuilder();
-			sql.append("INSERT INTO tb_grupo(gru_nome, gru_descricao, gru_nivel, gru_nivel_grupopai, ");
-			sql.append("gru_dt_cadastro) VALUES (?,?,?,?,?)");		
-					
+			sql.append("INSERT INTO tb_grupo(gru_nome, gru_descricao, gru_nivel,  ");
+			sql.append("gru_dt_cadastro) VALUES (?,?,?,?)");		
+			//gru_nivel_grupopai,
+                        
 			pst = connection.prepareStatement(sql.toString());
 			pst.setString(1, grupo.getNome());
 			pst.setString(2, grupo.getDescricao());
-                        pst.setString(3, grupo.getNivel());
-                        pst.setString(4, grupo.getNivel_grupopai());
+                        pst.setInt(3, Integer.parseInt(grupo.getNivel()));
+                      //  pst.setString(4, grupo.getNivel_grupopai());
 			Timestamp time = new Timestamp(grupo.getDtCadastro().getTime());
-			pst.setTimestamp(5, time);
+			pst.setTimestamp(4, time);
 			pst.executeUpdate();			
 			connection.commit();		
 		} catch (SQLException e) {

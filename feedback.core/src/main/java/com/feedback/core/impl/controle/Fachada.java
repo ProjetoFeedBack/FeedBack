@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.feedback.core.aplicacao.Resultado;
-import com.feedback.core.impl.dao.UsuarioDAO;
+import com.feedback.core.impl.dao.PessoaDAO;
 import com.feedback.core.impl.dao.GrupoDAO;
 import com.feedback.core.impl.negocio.ComplementarDtCadastro;
 import com.feedback.core.impl.negocio.ValidadorCpf;
@@ -45,7 +45,7 @@ public class Fachada implements IFachada {
 				
                 
                 /* Criando instancias dos DAOs a serem utilizados*/
-                UsuarioDAO usuDAO = new UsuarioDAO();
+                PessoaDAO usuDAO = new PessoaDAO();
                 GrupoDAO gruDAO = new GrupoDAO();
 		
 		/* Adicionando cada dao no MAP indexando pelo nome da classe */

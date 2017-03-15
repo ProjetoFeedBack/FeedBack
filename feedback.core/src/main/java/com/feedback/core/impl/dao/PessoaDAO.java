@@ -9,12 +9,15 @@ import java.util.List;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.Date;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
-
-public class UsuarioDAO extends AbstractJdbcDAO {
+@Repository("PessoaDAO")
+public class PessoaDAO extends AbstractJdbcDAO {
 	
-	public UsuarioDAO() {
-		super("tb_usuario", "usu_id");		
+        @Autowired
+	public PessoaDAO() {
+		super("tb_pessoa", "pes_id");		
 	}
         
         /** 
@@ -22,11 +25,12 @@ public class UsuarioDAO extends AbstractJdbcDAO {
 	 * @param entidade
 	 * @see fai.dao.IDAO#salvar(fai.domain.EntidadeDominio)
 	 */
+        
 	public void salvar(EntidadeDominio entidade) {
 		openConnection();
 		PreparedStatement pst=null;
-		Usuario usuario = (Usuario)entidade;
-                Endereco end = usuario.getEndereco();
+		Pessoa pessoa = (Pessoa)entidade;
+                Endereco end = pessoa.getEndereco();
 		
 		
 		try {                                        
@@ -34,15 +38,15 @@ public class UsuarioDAO extends AbstractJdbcDAO {
                         
 						
 			StringBuilder sql = new StringBuilder();
-			sql.append("INSERT INTO tb_usuario(usu_nome, usu_cpf, usu_rg, ");
-                        sql.append("usu_end_logradouro, usu_end_numero, usu_end_cep, usu_end_complemento, usu_end_bairro,usu_end_cidade, usu_end_estado, ");
-			sql.append("usu_dt_cadastro)");
+			sql.append("INSERT INTO tb_pessoa(pes_nome, pes_cpf, pes_rg, ");
+                        sql.append("pes_end_logradouro, pes_end_numero, pes_end_cep, pes_end_complemento, pes_end_bairro,pes_end_cidade, pes_end_estado, ");
+			sql.append("pes_dt_cadastro)");
                         sql.append(" VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 					
 			pst = connection.prepareStatement(sql.toString());
-			pst.setString(1, usuario.getNome());
-			pst.setString(2, usuario.getCpf());
-                        pst.setString(3, usuario.getRg());
+			pst.setString(1, pessoa.getNome());
+			pst.setString(2, pessoa.getCpf());
+                        pst.setString(3, pessoa.getRg());
                         pst.setString(4, end.getLogradouro());
                         pst.setString(5, end.getNumero());
                         pst.setString(6, end.getCep());
@@ -50,7 +54,7 @@ public class UsuarioDAO extends AbstractJdbcDAO {
                         pst.setString(8, end.getBairro());
                         pst.setString(9, end.getCidade().getNome());
 			pst.setString(10, end.getCidade().getEstado().getNome());
-			Timestamp time = new Timestamp(usuario.getDtCadastro().getTime());
+			Timestamp time = new Timestamp(pessoa.getDtCadastro().getTime());
                         
 			pst.setTimestamp(11, time);
 			pst.executeUpdate();			
@@ -79,34 +83,34 @@ public class UsuarioDAO extends AbstractJdbcDAO {
 	 * @param entidade
 	 * @see fai.dao.IDAO#alterar(fai.domain.EntidadeDominio)
 	 */
-	@Override
+	@Override        
 	public void alterar(EntidadeDominio entidade) {
 		openConnection();
 		PreparedStatement pst=null;
-		Usuario usuario = (Usuario)entidade;		
+		Pessoa pessoa = (Pessoa)entidade;		
 		
 		try {
 			connection.setAutoCommit(false);			
 					
 			StringBuilder sql = new StringBuilder();
-			sql.append("UPDATE tb_usuario SET usu_nome=?, usu_cpf=?, usu_rg=?,"
-                                + " usu_end_logradouro=?, usu_end_numero=?, usu_end_cep=?,"
-                                + "  usu_end_complemento=?,  usu_end_bairro=?,"
-                                + "  usu_end_cidade=?,  usu_end_estado=?, ");
-			sql.append("WHERE usu_id=?");	
+			sql.append("UPDATE tb_pessoa SET pes_nome=?, pes_cpf=?, pes_rg=?,"
+                                + " pes_end_logradouro=?, pes_end_numero=?, pes_end_cep=?,"
+                                + "  pes_end_complemento=?,  pes_end_bairro=?,"
+                                + "  pes_end_cidade=?,  pes_end_estado=?, ");
+			sql.append("WHERE pes_id=?");	
                         
 			pst = connection.prepareStatement(sql.toString());
-			pst.setString(1, usuario.getNome());
-			pst.setString(2, usuario.getCpf());
-			pst.setString(3, usuario.getRg());
-                        pst.setString(4, usuario.getEndereco().getLogradouro());
-                        pst.setString(5, usuario.getEndereco().getNumero());
-                        pst.setString(6, usuario.getEndereco().getCep());
-                        pst.setString(7, usuario.getEndereco().getComplemento());
-                        pst.setString(8, usuario.getEndereco().getBairro());
-                        pst.setString(9, usuario.getEndereco().getCidade().getNome());
-                        pst.setString(10,usuario.getEndereco().getCidade().getEstado().getNome());
-                        pst.setInt(11,usuario.getId());
+			pst.setString(1, pessoa.getNome());
+			pst.setString(2, pessoa.getCpf());
+			pst.setString(3, pessoa.getRg());
+                        pst.setString(4, pessoa.getEndereco().getLogradouro());
+                        pst.setString(5, pessoa.getEndereco().getNumero());
+                        pst.setString(6, pessoa.getEndereco().getCep());
+                        pst.setString(7, pessoa.getEndereco().getComplemento());
+                        pst.setString(8, pessoa.getEndereco().getBairro());
+                        pst.setString(9, pessoa.getEndereco().getCidade().getNome());
+                        pst.setString(10,pessoa.getEndereco().getCidade().getEstado().getNome());
+                        pst.setInt(11,pessoa.getId());
 			pst.executeUpdate();			
 			connection.commit();		
 		} catch (SQLException e) {
@@ -139,19 +143,19 @@ public class UsuarioDAO extends AbstractJdbcDAO {
 	public List<EntidadeDominio> consultar(EntidadeDominio entidade) {
             PreparedStatement pst = null;
 			
-			Usuario usuario = (Usuario)entidade;
+			Pessoa pessoa = (Pessoa)entidade;
 			String sql=null;
 			
-			if(usuario.getNome() == null){
-				usuario.setNome("");
+			if(pessoa.getNome() == null){
+				pessoa.setNome("");
 			}
 			
-			if(usuario.getId() == null && usuario.getNome().equals("")){
-				sql = "SELECT * FROM tb_usuario";
-			}else if(usuario.getId() != null && usuario.getNome().equals("")){
-				sql = "SELECT * FROM tb_usuario WHERE usu_id=?";
-			}else if(usuario.getId() == null && !usuario.getNome().equals("")){
-				sql = "SELECT * FROM tb_usuario WHERE usu_nome like ?";
+			if(pessoa.getId() == null && pessoa.getNome().equals("")){
+				sql = "SELECT * FROM tb_pessoa";
+			}else if(pessoa.getId() != null && pessoa.getNome().equals("")){
+				sql = "SELECT * FROM tb_pessoa WHERE pes_id=?";
+			}else if(pessoa.getId() == null && !pessoa.getNome().equals("")){
+				sql = "SELECT * FROM tb_pessoa WHERE pes_nome like ?";
 			
 			}
 		
@@ -161,27 +165,27 @@ public class UsuarioDAO extends AbstractJdbcDAO {
 			openConnection();
 			pst = connection.prepareStatement(sql);
 			
-			if(usuario.getId() != null && usuario.getNome().equals("")){
-				pst.setInt(1, usuario.getId());
-			}else if(usuario.getId() == null && !usuario.getNome().equals("")){
-				pst.setString(1, "%"+usuario.getNome()+"%");			
+			if(pessoa.getId() != null && pessoa.getNome().equals("")){
+				pst.setInt(1, pessoa.getId());
+			}else if(pessoa.getId() == null && !pessoa.getNome().equals("")){
+				pst.setString(1, "%"+pessoa.getNome()+"%");			
 			}		
 
 			
 			ResultSet rs = pst.executeQuery();
-			List<EntidadeDominio> usuarios = new ArrayList<EntidadeDominio>();
+			List<EntidadeDominio> pessoas = new ArrayList<EntidadeDominio>();
 			while (rs.next()) {
-				Usuario u = new Usuario();
-				u.setId(rs.getInt("usu_id"));
-				u.setNome(rs.getString("usu_nome"));
-				u.setCpf(rs.getString("usu_cpf"));  
-                                u.setRg(rs.getString("usu_rg"));				
-				java.sql.Date dtCadastroEmLong = rs.getDate("usu_dt_cadastro");
+				Pessoa u = new Pessoa();
+				u.setId(rs.getInt("pes_id"));
+				u.setNome(rs.getString("pes_nome"));
+				u.setCpf(rs.getString("pes_cpf"));  
+                                u.setRg(rs.getString("pes_rg"));				
+				java.sql.Date dtCadastroEmLong = rs.getDate("pes_dt_cadastro");
 				Date dtCadastro = new Date(dtCadastroEmLong.getTime());                                
 				u.setDtCadastro(dtCadastro);
-				usuarios.add(u);
+				pessoas.add(u);
 			}
-			return usuarios;
+			return pessoas;
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
@@ -191,7 +195,7 @@ public class UsuarioDAO extends AbstractJdbcDAO {
     @Override
     public List<EntidadeDominio> listar() {
 
-            List<EntidadeDominio> usuarios = new ArrayList<EntidadeDominio>();
+            List<EntidadeDominio> pessoas = new ArrayList<EntidadeDominio>();
         
             PreparedStatement pst = null;
             String sql=null;
@@ -199,26 +203,26 @@ public class UsuarioDAO extends AbstractJdbcDAO {
             try {
             openConnection();
                      
-            sql = "SELECT * FROM tb_usuario ORDER BY usu_id";
+            sql = "SELECT * FROM tb_pessoa ORDER BY pes_id";
             pst = connection.prepareStatement(sql);              
             ResultSet rs = pst.executeQuery();
                             
 		
                
 			while (rs.next()) {
-				Usuario u = new Usuario();
-				u.setId(rs.getInt("usu_id"));
-				u.setNome(rs.getString("usu_nome"));
-				u.setCpf(rs.getString("usu_cpf"));  
-                                u.setRg(rs.getString("usu_rg"));				
-				java.sql.Date dtCadastroEmLong = rs.getDate("usu_dt_cadastro");
+				Pessoa u = new Pessoa();
+				u.setId(rs.getInt("pes_id"));
+				u.setNome(rs.getString("pes_nome"));
+				u.setCpf(rs.getString("pes_cpf"));  
+                                u.setRg(rs.getString("pes_rg"));				
+				java.sql.Date dtCadastroEmLong = rs.getDate("pes_dt_cadastro");
 				Date dtCadastro = new Date(dtCadastroEmLong.getTime());                                
 				u.setDtCadastro(dtCadastro);
-				usuarios.add(u);
+				pessoas.add(u);
 			}
                         
                         
-			return usuarios;
+			return pessoas;
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
