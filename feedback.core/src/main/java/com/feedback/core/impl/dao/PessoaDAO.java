@@ -9,13 +9,10 @@ import java.util.List;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.Date;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 
-@Repository("PessoaDAO")
 public class PessoaDAO extends AbstractJdbcDAO {
 	
-        @Autowired
+        
 	public PessoaDAO() {
 		super("tb_pessoa", "pes_id");		
 	}

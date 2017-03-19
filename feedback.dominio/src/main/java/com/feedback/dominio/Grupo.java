@@ -2,9 +2,7 @@
 package com.feedback.dominio;
 
 import java.util.List;
-import org.springframework.stereotype.Component;
-        
-@Component
+
 public class Grupo extends EntidadeDominio{
     
     private String nome;

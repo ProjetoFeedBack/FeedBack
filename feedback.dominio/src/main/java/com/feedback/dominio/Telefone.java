@@ -1,8 +1,6 @@
 package com.feedback.dominio;
 
-import org.springframework.stereotype.Component;
 
-@Component
 class Telefone {
 
     private String ddi;

@@ -2,10 +2,7 @@ package com.feedback.core.aplicacao;
 
 import com.feedback.dominio.EntidadeDominio;
 import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
-@Component
 public class Resultado extends EntidadeAplicacao {
 
     private String msg;
@@ -16,7 +13,7 @@ public class Resultado extends EntidadeAplicacao {
      *
      * @return valor do campo msg
      */
-    @Autowired
+    
     public String getMsg() {
         return msg;
     }
@@ -26,7 +23,7 @@ public class Resultado extends EntidadeAplicacao {
      *
      * @param msg Atributo da Classe
      */
-    @Autowired
+    
     public void setMsg(String msg) {
         this.msg = msg;
     }
@@ -36,7 +33,7 @@ public class Resultado extends EntidadeAplicacao {
      *
      * @return valor do campo entidades
      */
-    @Autowired
+    
     public List<EntidadeDominio> getEntidades() {
         return entidades;
     }
@@ -46,7 +43,7 @@ public class Resultado extends EntidadeAplicacao {
      *
      * @param entidades Atributo da Classe
      */
-    @Autowired
+    
     public void setEntidades(List<EntidadeDominio> entidades) {
         this.entidades = entidades;
     }

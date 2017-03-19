@@ -19,10 +19,7 @@ import com.feedback.web.command.impl.SalvarCommand;
 import com.feedback.web.command.impl.VisualizarCommand;
 import com.feedback.web.vh.IViewHelper;
 import com.feedback.web.vh.impl.GrupoViewHelper;
-import com.feedback.web.vh.impl.UsuarioView;
 import com.feedback.web.vh.impl.UsuarioViewHelper;
-import java.util.ArrayList;
-import java.util.List;
 
 import com.feedback.dominio.EntidadeDominio;
 
