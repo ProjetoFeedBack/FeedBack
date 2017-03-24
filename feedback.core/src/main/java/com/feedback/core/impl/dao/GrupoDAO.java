@@ -74,7 +74,7 @@ public class GrupoDAO extends AbstractJdbcDAO {
 					
 			StringBuilder sql = new StringBuilder();
 			sql.append("UPDATE tb_grupo SET gru_nome=?, gru_descricao=?, gru_nivel=?,"
-                                + " gru_nivel_grupopai=?,  ");
+                                + " gru_gpai=?,  ");
 			sql.append("WHERE gru_id=?");	
                         
 			pst = connection.prepareStatement(sql.toString());
@@ -124,9 +124,10 @@ public class GrupoDAO extends AbstractJdbcDAO {
 				sql = "SELECT * FROM tb_grupo";
 			}else if(grupo.getId() != null && grupo.getNome().equals("")){
 				sql = "SELECT * FROM tb_grupo WHERE gru_id=?";
+			}else if(grupo.getId() != null && !grupo.getNome().equals("")){
+				sql = "SELECT * FROM tb_grupo WHERE gru_id=?";
 			}else if(grupo.getId() == null && !grupo.getNome().equals("")){
-				sql = "SELECT * FROM tb_grupo WHERE gru_nome like ?";
-			
+				sql = "SELECT * FROM tb_grupo WHERE gru_nome like ?";			
 			}
 		
 		
@@ -139,9 +140,10 @@ public class GrupoDAO extends AbstractJdbcDAO {
 				pst.setInt(1, grupo.getId());
 			}else if(grupo.getId() == null && !grupo.getNome().equals("")){
 				pst.setString(1, "%"+grupo.getNome()+"%");			
-			}
-			
-
+			}else if(grupo.getId() != null && !grupo.getNome().equals("")){                        
+                                pst.setInt(1, grupo.getId());
+                        }
+                          
 			
 			ResultSet rs = pst.executeQuery();
 			List<EntidadeDominio> grupos = new ArrayList<EntidadeDominio>();
@@ -151,7 +153,7 @@ public class GrupoDAO extends AbstractJdbcDAO {
 				g.setNome(rs.getString("gru_nome"));
 				g.setDescricao(rs.getString("gru_descricao"));  
                                 g.setNivel(rs.getString("gru_nivel"));
-                                g.setNivel_grupopai(rs.getString("gru_nivel_grupopai"));
+                                g.setNivel_grupopai(rs.getString("gru_gpai"));
 				
 				java.sql.Date dtCadastroEmLong = rs.getDate("gru_dt_cadastro");
 				Date dtCadastro = new Date(dtCadastroEmLong.getTime());				

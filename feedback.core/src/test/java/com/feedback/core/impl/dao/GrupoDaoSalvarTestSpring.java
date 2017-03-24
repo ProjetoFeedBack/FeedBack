@@ -8,10 +8,11 @@ package com.feedback.core.impl.dao;
 import com.feedback.core.aplicacao.Resultado;
 import com.feedback.dominio.EntidadeDominio;
 import com.feedback.dominio.Grupo;
-import com.feedback.spring.di.util.SpringUtil;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  *
@@ -20,7 +21,10 @@ import java.util.List;
 public class GrupoDaoSalvarTestSpring {
 
     public static void main(String[] args) {
-        Grupo grupo = (Grupo) SpringUtil.getInstance().getBean(Grupo.class);
+      //  Grupo grupo = (Grupo) SpringUtil.getInstance().getBean(Grupo.class);
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("../springConfiguration.xml");
+        Grupo grupo = (Grupo) applicationContext.getBean("grupo");
+        
         grupo.setNome("Teste");
         grupo.setNivel("1");
         grupo.setNivel_grupopai("0");

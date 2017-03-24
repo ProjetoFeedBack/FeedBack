@@ -1,0 +1,925 @@
+[
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+},
+
+{
+  "id" : "00001",
+  "nome" : "Regis Calderaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00002",
+  "nome" : "Lucas Monaro",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo3"]
+ 
+},
+
+{
+  "id" : "000486",
+  "nome" : "Felipe Almeida",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo1",   "Grupo2",  "Grupo3"]
+ 
+},
+
+{
+  "id" : "00264",
+  "nome" : "Henrique Schivo",
+  "rg" : "45.333.789.22",
+  "cpf" : "123.456.789.11",
+  "cep" : "09162-000",
+  "grupo" : ["Grupo3"]
+ 
+}
+
+]
