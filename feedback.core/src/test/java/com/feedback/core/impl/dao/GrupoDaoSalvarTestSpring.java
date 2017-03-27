@@ -5,23 +5,11 @@
  */
 package com.feedback.core.impl.dao;
 
-import com.feedback.core.aplicacao.Resultado;
-import com.feedback.dominio.EntidadeDominio;
-import com.feedback.dominio.Grupo;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-/**
- *
- * @author Dinax
- */
 public class GrupoDaoSalvarTestSpring {
 
     public static void main(String[] args) {
-      //  Grupo grupo = (Grupo) SpringUtil.getInstance().getBean(Grupo.class);
+      /**  Grupo grupo = (Grupo) SpringUtil.getInstance().getBean(Grupo.class);
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("../springConfiguration.xml");
         Grupo grupo = (Grupo) applicationContext.getBean("grupo");
         
@@ -41,7 +29,7 @@ public class GrupoDaoSalvarTestSpring {
         entidades.add(entidade);
         resultado.setEntidades(entidades);
         System.out.print(resultado);
-
+*/
     }
 
 }

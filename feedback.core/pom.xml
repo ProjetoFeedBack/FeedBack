@@ -12,14 +12,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     
-    <dependencies>
-        <dependency>
-            <groupId>com</groupId>
-            <artifactId>feedback.spring.di</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>test</scope>
-            <type>jar</type>
-        </dependency>
+    <dependencies>       
         <dependency>
             <groupId>com</groupId>
             <artifactId>feedback.dominio</artifactId>
