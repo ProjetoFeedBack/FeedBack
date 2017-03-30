@@ -14,12 +14,15 @@ import com.feedback.core.impl.dao.PessoaDAO;
 import com.feedback.core.impl.dao.GrupoDAO;
 import com.feedback.core.impl.negocio.ComplementarDtCadastro;
 import com.feedback.core.impl.negocio.ValidadorCpf;
-import com.feedback.core.impl.negocio.ValidadorDadosObrigatoriosUsuario;
 import com.feedback.core.impl.negocio.ValidadorDadosObrigatoriosGrupo;
+import com.feedback.core.impl.negocio.ValidadorDadosObrigatoriosUsuario;
 import com.feedback.core.impl.negocio.ValidadorGrupoPai;
 import com.feedback.dominio.*;
+import javax.transaction.Transactional;
+import org.springframework.stereotype.Component;
 
-
+@Component
+@Transactional
 public class Fachada implements IFachada {
 
 	/** 
@@ -68,8 +71,7 @@ public class Fachada implements IFachada {
                         /* Adicionando as regras a serem utilizadas na operacao salvar do usuario */
                         rnsSalvarUsuario.add(cDtCadastro);
                         rnsSalvarUsuario.add(vDadosUsuario);
-                        rnsSalvarUsuario.add(vCpf);
-
+                      
                         /* Regras quando a operacao for alterar */
                         List<IStrategy> rnsAlterarUsuario = new ArrayList<IStrategy>();
                         /* Adicionando as regras a serem utilizadas na operacao alterar do usuario */

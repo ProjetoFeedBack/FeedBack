@@ -13,17 +13,15 @@ public class ValidadorDadosObrigatoriosUsuario implements IStrategy{
 		if(entidade instanceof Usuario){
 			Usuario usuario = (Usuario)entidade;
 			
-			String nome = usuario.getNome();			
-			String cpf = usuario.getCpf();
-			String rg = usuario.getRg();
-			
-			if(nome == null || rg == null || cpf==null ){
-				return "Nome,rg, cpf e cidade sao de preenchimento obrigatorio!";
+			String emai = usuario.getEmail();			
+			String senha = usuario.getSenha();
+                        
+			if(emai == null || senha == null ){
+				return "Email e senha sao de preenchimento obrigatorio!";
 			}
 			
-			if(nome.trim().equals("") || rg.trim().equals("") || 
-					cpf.trim().equals("")){
-				return "Nome,rg, cpf e cidade sao de preenchimento obrigatorio!";
+			if(emai.trim().equals("") || senha.trim().equals("")){
+				return "Email e senha sao de preenchimento obrigatorio!";
 			}
 			
 		}else{
